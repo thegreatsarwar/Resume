@@ -33,7 +33,6 @@ body{
     font-size: xxx-large;
     margin: 0 0 5px;
 }
-
 .name .specialize{
     margin: 0;
     font-weight: bold;
@@ -58,4 +57,59 @@ body{
     transform: translate(-40px);
     background-color: #E9E7EA;
 }
-/* 12:26 */
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+}
+.intro{
+    padding-left: 30px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+h2{
+    padding: 0;
+    margin: 0 0 20px;
+}
+.exp{
+    text-align: right;
+}
+.exp h4{
+    margin: 20px 0 10px;
+}
+.skills{
+    margin-top: 50px;
+}
+.exp ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 30px;
+}
+.project{
+    padding-left: 30px;
+    text-align: justify;
+    border-left: 1px solid #000;
+}
+.project .web{
+    color: green;
+    padding: 10px 0;
+}
+.project .location{
+    font-weight: 500;
+    padding: 10px 0;
+}
+.project .item{
+    position: relative;
+}
+.project .item::before{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #000;
+    content: '';
+    border-radius: 50%;
+    left: -37px;
+}
